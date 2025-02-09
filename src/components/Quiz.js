@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "../styles/quiz.css";
 
 const Quiz = ({ onComplete }) => {
   const [questions, setQuestions] = useState([]);

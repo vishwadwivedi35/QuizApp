@@ -1,0 +1,22 @@
+.result-container {
+  text-align: center;
+}
+
+.result-container h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.score-highlight {
+  font-size: 22px;
+  color: #ffcc00;
+}
+
+.restart-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.restart-btn:hover {
+  background: #5a6268;
+}

@@ -1,3 +1,5 @@
+import "../styles/startScreen.css";
+
 const StartScreen = ({ onStart }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-900 to-indigo-900 text-white p-6">

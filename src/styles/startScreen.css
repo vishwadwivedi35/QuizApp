@@ -1,0 +1,19 @@
+.start-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.start-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.start-btn {
+  background: #28a745;
+  color: white;
+}
+
+.start-btn:hover {
+  background: #218838;
+}

@@ -1,0 +1,24 @@
+.quiz-container {
+  text-align: center;
+}
+
+.question {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  background: #007bff;
+  color: white;
+}
+
+.option-btn:hover {
+  background: #0056b3;
+}
+
+.score {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
