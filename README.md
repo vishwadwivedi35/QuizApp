@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+📌 Quiz Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Overview
 
-## Available Scripts
+This is a web-based quiz application that dynamically fetches quiz questions from an API and presents them through a sleek and interactive user interface. The app tracks user scores and displays a summary upon quiz completion.
 
-In the project directory, you can run:
+🎯 Features
 
-### `npm start`
+✅ Fetches quiz questions dynamically from an API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Displays multiple-choice questions with an elegant UI.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Tracks and calculates the final score.
 
-### `npm test`
+✅ Shows a result screen with total points.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Allows users to restart the quiz.
 
-### `npm run build`
+✅ Fully responsive and visually stunning design using pure CSS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React.js (Frontend Framework)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pure CSS (Custom styles, no Tailwind)
 
-### `npm run eject`
+Axios (For API requests)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Node.js & Express (Backend Proxy) (To bypass CORS restrictions)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📂 Project Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+quiz-app/
+│── src/
+│ ├── components/
+│ │ ├── Quiz.js # Main quiz logic
+│ │ ├── StartScreen.js # Start button screen
+│ │ ├── ResultScreen.js # Final result screen
+│ ├── styles/
+│ │ ├── global.css # Global styles
+│ │ ├── startScreen.css # Start screen styles
+│ │ ├── quiz.css # Quiz screen styles
+│ │ ├── resultScreen.css # Result screen styles
+│ ├── App.js # Main application logic
+│ ├── index.css # Imports global styles
+│── proxyServer.js # Backend proxy (Fixes CORS issue)
+│── package.json
+│── README.md
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📌 Setup Instructions
 
-## Learn More
+1️⃣ Clone the Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/vishwadwivedi35/quiz-app.git
+cd quiz-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2️⃣ Install Dependencies
 
-### Code Splitting
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3️⃣ Start the Backend Proxy Server
 
-### Analyzing the Bundle Size
+Since the API has CORS restrictions, run the local proxy:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+node proxyServer.js
 
-### Making a Progressive Web App
+4️⃣ Start the Frontend React App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm start
 
-### Advanced Configuration
+🎥 Screenshots & Video Walkthrough
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+https://drive.google.com/drive/folders/1m9TWJD0aJbzTolQmIfsZ1jP-kWwSQ4s8?usp=sharing
 
-### Deployment
+📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and free to use.
